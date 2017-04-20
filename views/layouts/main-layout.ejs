@@ -3,35 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title> <%= pageTitle %> </title>
-
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,800|Rubik+Mono+One" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
+
     <header>
-      <h1> Express Views </h1>
+
 
       <nav>
+        <div class="logo">
+           <h1 class="logo"> Colors.io </h1>
+       </div>
         <ul>
           <li> <a href="/"> Home </a> </li>
-
-          <li> <a href="/about"> About Us </a> </li>
-
-          <li> <a href="/counting"> Count to 20 </a>
-
-          <li> <a href="/cities"> Cities Traveled </a>
-
-          <li> <a href="/foods"> Favorite Foods </a>
+          <li> <a href="/colors"> Colors </a> </li>
+          <li> <a href="/random"> Color of the Day </a></li>
         </ul>
       </nav>
     </header>
-
-    <!-- body is a variable that contains the page being rendered -->
-    <!-- |     (handled by the layout package)-->
+    <div class="container">
     <%- body -%>
-
+    </div>
     <footer>
-      Made with &hearts; at Ironhack.
-      Copyright © 2017 Blah.
+      Look At All Those Colors! &hearts; <br>
+      &copy; 2017 Ironhack
     </footer>
   </body>
 </html>

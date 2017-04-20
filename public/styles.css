@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+.logo {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    background: -webkit-linear-gradient(#662D8C, #ED1E79);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    clear: both;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: inline;
+    margin-top: 100px;
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding: 0 10px ;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: all .2s ease-in-out;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: purple;
+}
+
+a:hover {
+    color: purple;
+    transform: scale(1.2);
+}
+
+footer {
+    padding: 10px;
+    clear: both;
+}
+
+.card {
+    width: calc(100%/5 - 10px);
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 25px;
+
+}
+.color {
+    height: 170px;
+    border-radius: 5px 5px 0px 0px;
+    border: #ececec 1px solid;
+    border-bottom: none;
+}
+.info {
+    height: 75px;
+    background-color: white;
+    margin-top: -20px;
+    border: #ececec 1px solid;
+    border-radius: 0 0 5px 5px;
+}
+.info h3 {
+    padding: 10px 0 0px 20px;
+    margin: 0;
+}
+.info p {
+    padding: 5px 0 0 20px;
+    margin: 0;
+}
+
+.cardbig {
+    width: 40%;
+    margin: auto;
+
+}
+.colorbig {
+    height: 350px;
+    border-radius: 5px 5px 0px 0px;
+    border: #ececec 1px solid;
+    border-bottom: none;
+}
+.infobig {
+    height: 75px;
+    background-color: white;
+    margin-top: -20px;
+    border: #ececec 1px solid;
+    border-radius: 0 0 5px 5px;
+}
+.infobig h3 {
+    padding: 10px 0 0px 20px;
+    margin: 0;
+}
+.infobig p {
+    padding: 5px 0 0 20px;
+    margin: 0;
+}

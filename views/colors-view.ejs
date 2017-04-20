@@ -1,0 +1,14 @@
+<h2> All the Colors </h2>
+
+
+
+<% for(i = 0; i < colors.length; i++) { %>
+    <div class="card">
+        <div class="color" style="background-color: <%= colors[i].hex %>" >
+        </div>
+        <div class="info">
+        <h3> <%= colors[i].keyword %> </h3>
+        <p> <%= colors[i].hex %> </p>
+        </div>
+    </div>
+<% } %>
