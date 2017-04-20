@@ -37,7 +37,7 @@ app.get('/colors', (req, res, next) => {
 
 
 app.get('/random', (req, res, next) => {
-  let randomnum = Math.floor(Math.random() * colors.length) + 1;
+  let randomnum = Math.floor(Math.random() * colors.length);
   let randomColor = colors[randomnum];
   res.render('random-view.ejs', {
       name: randomColor.keyword,
